@@ -968,3 +968,10 @@ body {
     padding: 4rem 0;
   }
 }
+
+
+/* Accessible button-based currency selectors */
+.select-trigger { font-family: inherit; text-align: left; }
+.option-item { width: 100%; border: 0; background: transparent; color: var(--text-primary); font: inherit; text-align: left; }
+.option-item:hover { background: rgba(139, 92, 246, 0.15); color: var(--primary); }
+.option-item:focus-visible, .select-trigger:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
